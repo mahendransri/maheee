@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="156.113003">
+<testcase classname="To  validate login functionality in fb" name="To validate login using valid email and invalid password" time="33.127523">
+<system-out><![CDATA[Given user have to be in fb login page......................................passed
+And user have to maximize screen............................................passed
+When user have to enter valid Email and invalid password....................passed
+And user have to click login button.........................................passed
+Then user have to be in password incorrect page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To  validate login functionality in fb" name="To validate login using invalid email and invalid password" time="10.870236">
+<failure message="java.lang.IndexOutOfBoundsException: Index: 3, Size: 3&#13;&#10;&#9;at java.util.ArrayList.rangeCheck(Unknown Source)&#13;&#10;&#9;at java.util.ArrayList.get(Unknown Source)&#13;&#10;&#9;at java.util.Collections$UnmodifiableList.get(Unknown Source)&#13;&#10;&#9;at org.stepsdefiniton.loginsteps.user_have_to_enter_invalid_Email_and_invalid_password(loginsteps.java:57)&#13;&#10;&#9;at ✽.user have to enter invalid Email and invalid password(C:/Users/ADMIN/eclipse-workspace/BDDcucumberframework/src/test/resources/Feature/login.feature:19)&#13;&#10;"><![CDATA[Given user have to be in fb login page......................................passed
+And user have to maximize screen............................................passed
+When user have to enter invalid Email and invalid password..................failed
+And user have to click login button.........................................skipped
+Then user have to be in password incorrect page.............................skipped
+
+StackTrace:
+java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at java.util.Collections$UnmodifiableList.get(Unknown Source)
+	at org.stepsdefiniton.loginsteps.user_have_to_enter_invalid_Email_and_invalid_password(loginsteps.java:57)
+	at ✽.user have to enter invalid Email and invalid password(C:/Users/ADMIN/eclipse-workspace/BDDcucumberframework/src/test/resources/Feature/login.feature:19)
+]]></failure>
+</testcase>
+<testcase classname="To  validate login functionality in fb" name="To validate login using Invalid email and invalid password" time="14.987276">
+<system-out><![CDATA[Given user have to be in fb login page......................................passed
+And user have to maximize screen............................................passed
+When user have to enter Invalid email and invalid password..................passed
+And user have to click login button.........................................passed
+Then user have to be in password incorrect page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To  validate login functionality in fb" name="To validate login using Invalid email and invalid password 2" time="38.796242">
+<system-out><![CDATA[Given user have to be in fb login page......................................passed
+And user have to maximize screen............................................passed
+When user have to Enter Invalid Email and invalid Password..................passed
+And user have to click login button.........................................passed
+Then user have to be in password incorrect page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To  validate forgotten password functionality in fb" name="To validate Forgottenpassword link in fb" time="17.399159">
+<system-out><![CDATA[Given user have to be in fb Login page......................................passed
+And user have to Maximize screen............................................passed
+When user have to click Forgotten password link and enter "mahendran".......passed
+And user have to click search button........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To  validate forgotten password functionality in fb" name="To validate Forgottenpassword link in fb 2" time="18.111161">
+<system-out><![CDATA[Given user have to be in fb Login page......................................passed
+And user have to Maximize screen............................................passed
+When user have to click Forgotten password link and enter "srimahe".........passed
+And user have to click search button........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To  validate forgotten password functionality in fb" name="To validate Forgottenpassword link in fb 3" time="22.821406">
+<system-out><![CDATA[Given user have to be in fb Login page......................................passed
+And user have to Maximize screen............................................passed
+When user have to click Forgotten password link and enter "gethaa"..........passed
+And user have to click search button........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

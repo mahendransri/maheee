@@ -1,0 +1,841 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4911507500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to be in fb login page",
+            "match": {
+              "location": "loginsteps.user_have_to_be_in_fb_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 337163300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to maximize screen",
+            "match": {
+              "location": "loginsteps.user_have_to_maximize_screen()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12936409600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "To validate login using valid email and invalid password",
+        "description": "",
+        "id": "to--validate-login-functionality-in-fb;to-validate-login-using-valid-email-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 13189253100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 874414100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user have to enter valid Email and invalid password",
+            "match": {
+              "location": "loginsteps.user_have_to_enter_valid_Email_and_invalid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Watch",
+                  "Mobile"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 294740600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user have to click login button",
+            "match": {
+              "location": "loginsteps.user_have_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 768700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user have to be in password incorrect page",
+            "match": {
+              "location": "loginsteps.user_have_to_be_in_password_incorrect_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@reg"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3647505700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to be in fb login page",
+            "match": {
+              "location": "loginsteps.user_have_to_be_in_fb_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 295513700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to maximize screen",
+            "match": {
+              "location": "loginsteps.user_have_to_maximize_screen()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3489640300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To validate login using invalid email and invalid password",
+        "description": "",
+        "id": "to--validate-login-functionality-in-fb;to-validate-login-using-invalid-email-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 3427881900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IndexOutOfBoundsException: Index: 3, Size: 3\r\n\tat java.util.ArrayList.rangeCheck(Unknown Source)\r\n\tat java.util.ArrayList.get(Unknown Source)\r\n\tat java.util.Collections$UnmodifiableList.get(Unknown Source)\r\n\tat org.stepsdefiniton.loginsteps.user_have_to_enter_invalid_Email_and_invalid_password(loginsteps.java:57)\r\n\tat ✽.user have to enter invalid Email and invalid password(C:/Users/ADMIN/eclipse-workspace/BDDcucumberframework/src/test/resources/Feature/login.feature:19)\r\n",
+              "duration": 8096800,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "user have to enter invalid Email and invalid password",
+            "match": {
+              "location": "loginsteps.user_have_to_enter_invalid_Email_and_invalid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "srimahe",
+                  "mahe",
+                  "darshika"
+                ]
+              },
+              {
+                "cells": [
+                  "mahe@123",
+                  "poornisha",
+                  "sugan123"
+                ]
+              },
+              {
+                "cells": [
+                  "chennai",
+                  "Tambaram",
+                  "sanatorium"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30300,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user have to click login button",
+            "match": {
+              "location": "loginsteps.user_have_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19700,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user have to be in password incorrect page",
+            "match": {
+              "location": "loginsteps.user_have_to_be_in_password_incorrect_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3576039400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to be in fb login page",
+            "match": {
+              "location": "loginsteps.user_have_to_be_in_fb_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 298542900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to maximize screen",
+            "match": {
+              "location": "loginsteps.user_have_to_maximize_screen()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3109331900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "To validate login using Invalid email and invalid password",
+        "description": "",
+        "id": "to--validate-login-functionality-in-fb;to-validate-login-using-invalid-email-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 6296649200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1181062800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user have to enter Invalid email and invalid password",
+            "match": {
+              "location": "loginsteps.user_have_to_enter_Invalid_email_and_invalid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Email",
+                  "mahendransri97@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "phoneno",
+                  "9843113158"
+                ]
+              },
+              {
+                "cells": [
+                  "Name",
+                  "sridarshika"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 523635700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user have to click login button",
+            "match": {
+              "location": "loginsteps.user_have_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1070200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user have to be in password incorrect page",
+            "match": {
+              "location": "loginsteps.user_have_to_be_in_password_incorrect_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20740505400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to be in fb login page",
+            "match": {
+              "location": "loginsteps.user_have_to_be_in_fb_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 329044100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to maximize screen",
+            "match": {
+              "location": "loginsteps.user_have_to_maximize_screen()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3485631800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "To validate login using Invalid email and invalid password",
+        "description": "",
+        "id": "to--validate-login-functionality-in-fb;to-validate-login-using-invalid-email-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 13210222100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 798835600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user have to Enter Invalid Email and invalid Password",
+            "match": {
+              "location": "loginsteps.user_have_to_Enter_Invalid_Email_and_invalid_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Name",
+                  "phoneno",
+                  "Email"
+                ]
+              },
+              {
+                "cells": [
+                  "dev",
+                  "arun",
+                  "mahend"
+                ]
+              },
+              {
+                "cells": [
+                  "jeeve",
+                  "anitha",
+                  "vishva"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 230585400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user have to click login button",
+            "match": {
+              "location": "loginsteps.user_have_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user have to be in password incorrect page",
+            "match": {
+              "location": "loginsteps.user_have_to_be_in_password_incorrect_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sri"
+          }
+        ]
+      }
+    ],
+    "name": "To  validate login functionality in fb",
+    "description": "",
+    "id": "to--validate-login-functionality-in-fb",
+    "keyword": "Feature",
+    "uri": "C:/Users/ADMIN/eclipse-workspace/BDDcucumberframework/src/test/resources/Feature/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3626112200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To validate Forgottenpassword link in fb",
+        "description": "",
+        "id": "to--validate-forgotten-password-functionality-in-fb;to-validate-forgottenpassword-link-in-fb;|;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3410333400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3912470200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have to be in fb Login page",
+            "match": {
+              "location": "fb.user_have_to_be_in_fb_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 273138400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to Maximize screen",
+            "match": {
+              "location": "fb.user_have_to_Maximize_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3951477200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to click Forgotten password link and enter \"mahendran\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mahendran\"",
+                  "offset": 53
+                }
+              ],
+              "location": "fb.user_have_to_click_Forgotten_password_link_and_enter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2225017000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user have to click search button",
+            "match": {
+              "location": "fb.user_have_to_click_search_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mahe"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3380945600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To validate Forgottenpassword link in fb",
+        "description": "",
+        "id": "to--validate-forgotten-password-functionality-in-fb;to-validate-forgottenpassword-link-in-fb;|;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3435328200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3654580200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have to be in fb Login page",
+            "match": {
+              "location": "fb.user_have_to_be_in_fb_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 316077600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to Maximize screen",
+            "match": {
+              "location": "fb.user_have_to_Maximize_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5092777300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to click Forgotten password link and enter \"srimahe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"srimahe\"",
+                  "offset": 53
+                }
+              ],
+              "location": "fb.user_have_to_click_Forgotten_password_link_and_enter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2230868400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user have to click search button",
+            "match": {
+              "location": "fb.user_have_to_click_search_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mahe"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3125883300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "To validate Forgottenpassword link in fb",
+        "description": "",
+        "id": "to--validate-forgotten-password-functionality-in-fb;to-validate-forgottenpassword-link-in-fb;|;4",
+        "after": [
+          {
+            "result": {
+              "duration": 3447313900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5845559300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have to be in fb Login page",
+            "match": {
+              "location": "fb.user_have_to_be_in_fb_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 297561300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to Maximize screen",
+            "match": {
+              "location": "fb.user_have_to_Maximize_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7897212100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to click Forgotten password link and enter \"gethaa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gethaa\"",
+                  "offset": 53
+                }
+              ],
+              "location": "fb.user_have_to_click_Forgotten_password_link_and_enter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2207342500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user have to click search button",
+            "match": {
+              "location": "fb.user_have_to_click_search_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mahe"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To  validate forgotten password functionality in fb",
+    "description": "",
+    "id": "to--validate-forgotten-password-functionality-in-fb",
+    "keyword": "Feature",
+    "uri": "C:/Users/ADMIN/eclipse-workspace/BDDcucumberframework/src/test/resources/Feature/page2.feature",
+    "tags": [
+      {
+        "name": "@mahe",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
